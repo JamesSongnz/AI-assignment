@@ -45,7 +45,7 @@ print(len(train), len(validation), len(test))
 
 
 
-look_back = 8
+look_back = 7
 
 
 trainX, trainY = create_dataset(train, look_back)
